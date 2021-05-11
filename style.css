@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "", sans-serif;
+}
+@font-face {
+    font-family: ;
+    src: url();
+}
+.container {
+    width: 1330px;
+    margin: 0 auto;
+}
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hero {
+    background-image: url("../img/main\ photo.png");
+    background-position: center;
+    background-size: cover;
+}
