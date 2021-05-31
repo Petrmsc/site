@@ -1,113 +1,120 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css2/style.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800;900&family=Roboto+Condensed&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <title>Сайт ForBelka</title>
 </head>
 <body>
-  <header class="header">
+  <header>
     <div class="container">
-      <a class="logo" href="">
-        <img src="img/logo.svg" alt="Logo">
-      </a>
-      <a class="burger">
-        <img src="img/Component2.svg" alt="Burger">
-      </a>
-      <a class="icon">
-        <img src="img/instagram1.svg " alt="instagram">
-      </a>
+      <div class="header_inner">
+          <a href="#">
+            <img class="header_logo" src="img/Logo1.svg" alt="logo">
+          </a>
+          <a href="https://www.instagram.com/4belka_finblog/" target="_blank">
+            <img class="instagram_logo" src="img/instagram 6.svg" alt="instagram" width="30px" height="30px">
+          </a>
+      </div>
     </div>
   </header>
-
-  <main class="main">
-    <section class="hero">
-      <div class="container">
-        <div class="hero-content">
-          <span class="hero-subtitle">Онлайн курс</span>
-          <h1 class="hero-title">ИНВЕСТИЦИИ НА ДИВАНЕ</h1>
-          <p class= "hero-text">Уже после первого занятия вы почувствуете, что вы «в теме». Курс стартует <strong>24 мая!</strong></p>
-          <button class="button">Записаться на курс</button>
-        </div>
-      </div>        
-    </section>
-
-    <div class="about">
-      <div class="container">
-        <h2 class="title2" id="titleone">ПРОГРАММА КУРСА</h2> 
-        <h3 class="title3" id="subtitleone">Вводное занятие. Инвестиции и биржа.</h3>
-        <span class="number" id="one">1</span>
-        <span class="about" id="oneabout">Вы будете знать</span>
-        <ul class="list">
-          <li class="first">Какие бывают виды инвестиций?</li>
-          <li class="first">Зачем нам инвестировать?</li>
-          <li class="first">Куда деваются наши деньги на&nbsp;фондовом рынке?<br>Как это работает? Разбор основных понятий</li>
-          <li class="first">Виды бирж и наши пути выхода на биржу</li>
-        </ul>
-
-        <h3 class="title3" id="subtitletwo">Выбор брокера. Брокерские счета.</h3>
-        <span class="number" id="two">1</span>
-        <span class="about" id="twoabout">Вы будете знать</span>
-        <ul class="list">
-          <li class="first">ТОП брокеров РФ. Условия открытия счета,<br>комисии, отличия</li>
-          <li class="first">Резиденты и&nbsp;нерезиденты РФ&nbsp;&mdash;<br>кому и&nbsp;где можно открыть счет?</li>
-          <li class="first">Обзор зарубежных брокеров <br> и&nbsp;когда они нам нужны. Условия открытия счета</li>
-          <li class="first">Разбор отличий брокерских счетов в&nbsp;РФ <br>и&nbsp;заграницей, преимущества заграничного счета<br>и&nbsp;преимущества ИИС, виды вычетов</li>
-        </ul>
-
-        <h3 class="title3" id="subtitlethree">Акции.</h3>
-        <span class="number" id="three">3</span>
-        <span class="about" id="threeabout">Вы будете знать</span>
-        <ul class="list">
-          <li class="first">Как на этом зарабатывать?</li>
-          <li class="first">Дивидендный гэп и как его выгодно использовать?</li>
-          <li class="first">Освоение мультипликаторов</li>
-          <li class="first">Классификация акций по&nbsp;их&nbsp;надежности<br>и&nbsp;доходности</li>
-        </ul>
+  <section class="intro">
+    <div class="container">
+      <div class="intro_inner">
+        <h5 class="sub_title">Онлайн курс</h5>
+        <h1>Инвестиции на диване</h1>
+        <p class="intro_text"><span class="hide_text">Уже после первого занятия вы&nbsp;почувствуете,<br> 
+          что вы&nbsp;&laquo;в&nbsp;теме&raquo;. </span>Курс стартует <strong>29&nbsp;мая! </straong></p>
+        <a href="https://drive.google.com/file/d/12em7fJbSgyChazkTZF8gSbjrOPbc_WLU/view?usp=sharing
+        " target="_blank" class="downBtn">   
+          <button class="intro_button">Нажми и я все расскажу!</button>
+        </a>   
       </div>
     </div>
-
+  </section>
+  <section id="content">
+    <div class="container">
+      <div class="about">
+        <h2>Тарифы и цены</h2>
+        <div class="about_inner">
+          <div class="first_column">
+            <img class="number one" src="img/Component 15.svg">
+            <p class="subtitle one">ТУСОВКА ИНВЕСТОРОВ<br><span class="about_sp sp_one">9000 рублей</span></p>
+            <ul class="list">
+              <li>Доступ к&nbsp;материалам онлайн-курса 1&nbsp;год, уроки в&nbsp;записи-<br>прохождение в&nbsp;любое удобное для Вас время</li>
+              <li>Чат участников в&nbsp;Telegram, где вы&nbsp;сможете делиться идеями, <br> вопросами, знаниями и&nbsp;поддерживать друг-друга</li>
+              <li>1&nbsp;месяц моя поддержка и&nbsp;ответы на&nbsp;вопросы<br>по&nbsp;пройденному материалу</li>
+              <li>Доступ к&nbsp;обновлениям материалов</li>
+              <li class="about_disc" style="list-style-type: none;">*50% скидка инвалидам и матерям детей инвалидов</li>
+            </ul>
+          </div>
+          <div class="second_column">
+            <img class="number two" src="img/Component 16.svg">
+            <p class="subtitle second">VIP<br><span class="about_sp sp_one">14000 рублей</span></p>
+            <ul class="list">
+              <li>Доступ к&nbsp;материалам онлайн-курса 1&nbsp;год, уроки в&nbsp;записи-<br>прохождениев в&nbsp;любое удобное для Вас время</li>
+              <li>Чат участников в Telegram, где вы сможете делиться идеями, <br> вопросами, знаниями и поддерживать друг-друга</li>
+              <li>Первые 2&nbsp;месяца моя поддержка и&nbsp;ответы на&nbsp;вопросы<br>по&nbsp;пройденному материалу</li>
+              <li>Поддержка в&nbsp;решении персональных вопросов<br>при открытии счетов и&nbsp;отчетности</li>
+              <li>Доступ к&nbsp;обновлениям материалов</li>
+              <li class="about_disc" style="list-style-type: none;">*50% скидка инвалидам и матерям детей инвалидов</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about_pay">
+          <a href="https://www.tinkoff.ru/rm/prikhodko.nataliya7/it0kW44234" target="_blank">   
+            <button class="pay_button">Оплатить обучение</button>
+          </a> 
+        </div>
+      </div>
+    </div>  
+  </section>
+  <section id="section_two">
     <div class="form">
       <div class="container">
-        <h4 class="titlefour">ЗАПОЛНИ ФОРМУ И ВЫБЕРИ ТАРИФ</h4>
-        <div class="backgroundcolor"></div>
-        <form action="" class="">
-          <input type="text" class="form" placeholder="Введите имя">
-          <input type="text" class="form" placeholder="Ваш e-mail">
-          <button class="formbutton">Перейти к выбору тарифа</button>
-        </form>
-     </div>
-    </div>
-
-    <div class="video">
-      <div class="container">
-        <h5 class="title5">ПОСМОТРИ ТРЕЙЛЕР ОБУЧЕНИЯ</h5>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GhMwJsgHqAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2 class="form_title">Заполни форму и выбери тариф</h2>
+        <div class="form_content">
+          <form action="">
+            <input type="text" name="name" placeholder="Введите имя">
+            <input type="text" name="male" placeholder="Ваш e-mail">
+            <button type="submit" class="form_btn">Перейти к выбору тарифа</button>
+          </form>
+        </div>
       </div>
     </div>
-  </main>
-
-  <footer class="footer">
+  </section>
+  <div class="trailer" id="down">
     <div class="container">
-      <a class="logo" href="" alt="logo Kaskun">
-        <img src="img/logo1.svg">
-      </a>
-      <a href="">
-        <p class="footertext">Договор-оферта</p>
-      </a>
-      <a href="">
-        <p class="footertext">Политика конфиденциальности</p>
-      </a>
-      <a download href="img/договор оферты.футер.docx"> 
-        <p class="footertext">Политика сбора персональных данных</p>
-      </a>
-      <a class="icon" alt='Instagramlink'>
-        <img src="img/instagram 1.svg">
-      </a>
+      <h2>Посмотри трейлер обучения</h2>
+      <dive class="video_responsive">
+        <iframe width="1060" height="615" src="https://www.youtube.com/embed/3aaHBTa1EB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </dive>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer_content">
+        <a href="#">
+          <img class="footer_logo" src="img/Логотипaeenth.svg" alt="logo">
+        </a>
+        <div class="footer_text">
+          <a download href="img/политика сбора персональных данных.футер.docx">Политика сбора персональных данных</a>
+          <a download href="img/политика конфиденциальности.футер.docx">Политика конфеденциальности</a>
+          <a download href="img/договор оферты.футер.docx">Договор-оферта</a>
+        </div>
+        <a href="https://www.instagram.com/4belka_finblog/" target="_blank">
+          <img class="footer_logo_inst" src="img/instagram1.svg" alt="instagram">
+        </a> 
+      </div>
     </div>
   </footer>
+  <script>
+  </script>
 </body>
 </html>
